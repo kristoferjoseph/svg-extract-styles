@@ -1,6 +1,6 @@
 {
   "name": "svg-extract-styles",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extracts fill & stroke into a css id selector named after the svg file.",
   "main": "index.js",
   "bin": {
