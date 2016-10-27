@@ -40,11 +40,11 @@ else {
 }
 
 function getFill(value) {
-  return value? `\n  fill: ${value};`: ''
+  return value && value !== 'none'? `\n  fill: ${value};`: ''
 }
 
 function getStroke(value) {
-  return value? `\n  stroke: ${value};`: ''
+  return value && value !== 'none'? `\n  stroke: ${value};`: ''
 }
 
 function getSelector(fileName, fill, stroke) {
