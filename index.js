@@ -48,6 +48,6 @@ function getStroke(value) {
 }
 
 function getSelector(fileName, fill, stroke) {
-  var selector = `#${fileName} {` + `${getFill(fill)}` + `${getStroke(stroke)}` + '\n}\n'
+  var selector = `.icon-${fileName} {` + `${getFill(fill)}` + `${getStroke(stroke)}` + '\n}\n'
   return selector
 }
