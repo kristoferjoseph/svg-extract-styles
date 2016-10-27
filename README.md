@@ -6,7 +6,7 @@ This is a simple module that outputs the fill and stroke attributes in a CSS sel
 Install
 -------
 
-`npm i svg-extract-styles` --save-dev`
+`npm i svg-extract-styles --save-dev`
 
 Usage
 -----
